@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinter.io</title>
-</head>
-<body>
-    <h2 class="">Hello</h2>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    /> <!--DaisyUi CDN-->
+    <script src="https://cdn.tailwindcss.com"></script> <!--TailwindCSS CDN-->
+    <!-- Font Family CND -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+     <header class=" bg-gradient-to-t from-white to-gray-200">
+        <!-- Navbar Start -->
+         <nav class="w-10/12 mx-auto flex justify-between items-center py-5 ">
+         <div class="logo flex items-center ">
+            <i class="fa-solid fa-arrow-right text-sm bg-[#ABEF5F] -rotate-45 rounded-full p-2 mr-1"></i><h2 class="font-manrope font-bold text-3xl"> Rinter.io</h2>
+         </div>
+         <div class="nav-links hidden md:block">
+            <ul class="flex font-manrope gap-10">
+                <li class="font-extrabold hover:underline"><a href="#">Home</a></li>
+                <li class="hover:underline"><a href="#">Service</a></li>
+                <li class="hover:underline"><a href="#">Portfolio</a></li>
+                <li class="hover:underline"><a href="#">Blogs</a></li>
+                <li class="hover:underline"><a href="#">Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="search hidden md:flex items-center gap-5">
+            <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-full cursor-pointer"></i>
+            <i class="fa-solid fa-cart-shopping bg-white p-2 rounded-full cursor-pointer"></i>
+            <div class="bg-[#ABEF5F] px-3 rounded-full"><button class="inline-block font-bold text-lg p-2 pr-2 font-manrope">Book Consult</button><i class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-black text-white p-2 mr-1"></i></div>
+            
+         </div>
+         <div class="md:hidden text-2xl "><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <!-- Navbar End -->
+         <!-- Banner Secion Start -->
+          <div class="banner w-10/12 mx-auto py-5">
+            <div class="w-10/12 mx-auto text-center">
+                <img class="w-full md:w-10/12" src="./assets/banner.png" alt="Banner Photo">
+            </div>
+            <div class="text-center w-8/12">
+                <h1 class="text-3xl md:text-extrabold md:text-5xl font-extrabold py-5 font-manrope">Awesome Home Design Is Wating For You. Not So Late. Lets Design.</h1>
+                <p class="font-manrope text-[#494949]">This is our agency of home and house design. If you want to make a beautiful designed home in your city, You are welcome. Our agency is providing a best quality home design. Please contact me </p>
+            </div>
+          </div>
+         <!-- Banner Secion End -->
+     </header>
+    <!-- Main Section -->
+     <main>
+
+     </main>
+    <!-- Footer Section -->
+     <footer>
+
+     </footer>
+
+     <!-- FontAwesome Icon CDN -->
+     <script src="https://kit.fontawesome.com/13f4ca9130.js" crossorigin="anonymous"></script>
+  </body>
 </html>
