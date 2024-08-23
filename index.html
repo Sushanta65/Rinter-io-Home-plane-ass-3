@@ -4,73 +4,149 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinter.io</title>
-     <!--DaisyUi CDN-->
+    <!--DaisyUi CDN-->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
     <!--TailwindCSS CDN-->
-    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Family CND -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        .font-manrope{
-            font-family: "Manrope", sans-serif;
-        }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
   </head>
-  <body>
+  <body class="bg-gray-200">
     <!-- Header Section -->
-     <header class=" bg-gradient-to-t from-white to-gray-200">
-        <!-- Navbar Start -->
-         <nav class="w-10/12 mx-auto flex justify-between items-center py-5 ">
-         <div class="logo flex items-center ">
-            <i class="fa-solid fa-arrow-right text-sm bg-[#ABEF5F] -rotate-45 rounded-full p-2 mr-1"></i><h2 class="font-manrope font-bold text-3xl"> Rinter.io</h2>
-         </div>
-         <div class="nav-links hidden md:block">
-            <ul class="flex font-manrope gap-10">
-                <li class="font-extrabold hover:underline"><a href="#">Home</a></li>
-                <li class="hover:underline"><a href="#">Service</a></li>
-                <li class="hover:underline"><a href="#">Portfolio</a></li>
-                <li class="hover:underline"><a href="#">Blogs</a></li>
-                <li class="hover:underline"><a href="#">Contact Us</a></li>
-            </ul>
-         </div>
-         <div class="search hidden md:flex items-center gap-5">
-            <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-full cursor-pointer"></i>
-            <i class="fa-solid fa-cart-shopping bg-white p-2 rounded-full cursor-pointer"></i>
-            <div class="bg-[#ABEF5F] px-3 rounded-full"><button class="inline-block font-bold text-lg p-2 pr-2 font-manrope">Book Consult</button><i class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-black text-white p-2 mr-1"></i></div>
-            
-         </div>
-         <div class="md:hidden text-2xl "><i class="fa-solid fa-bars"></i></div>
-        </nav>
-        <!-- Navbar End -->
-         <!-- Banner Secion Start -->
-          <div class="banner w-10/12 mx-auto py-5">
-            <div class=" w-3/4 md:w-2/3 mx-auto text-center">
-                <img class="w-full" src="./assets/banner.png" alt="Banner Photo">
+    <header class="bg-gradient-to-t from-white to-gray-200">
+      <!-- Navbar Start -->
+      <nav class="w-10/12 mx-auto flex justify-between items-center py-5">
+        <div class="logo flex items-center">
+          <i
+            class="fa-solid fa-arrow-right text-sm bg-[#ABEF5F] -rotate-45 rounded-full p-2 mr-1"
+          ></i>
+          <h2 class="font-manrope font-bold text-3xl">Rinter.io</h2>
+        </div>
+        <div class="nav-links hidden md:block">
+          <ul class="flex font-manrope gap-10">
+            <li class="font-extrabold hover:underline"><a href="#">Home</a></li>
+            <li class="hover:underline"><a href="#">Service</a></li>
+            <li class="hover:underline"><a href="#">Portfolio</a></li>
+            <li class="hover:underline"><a href="#">Blogs</a></li>
+            <li class="hover:underline"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="search hidden md:flex items-center gap-5">
+          <i
+            class="fa-solid fa-magnifying-glass bg-white p-2 rounded-full cursor-pointer"
+          ></i>
+          <i
+            class="fa-solid fa-cart-shopping bg-white p-2 rounded-full cursor-pointer"
+          ></i>
+          <div class="bg-[#ABEF5F] px-3 rounded-full">
+            <button
+              class="inline-block font-bold text-lg p-2 pr-2 font-manrope"
+            >
+              Book Consult</button
+            ><i
+              class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-black text-white p-2 mr-1"
+            ></i>
+          </div>
+        </div>
+        <div class="md:hidden text-2xl"><i class="fa-solid fa-bars"></i></div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Banner Secion Start -->
+      <div class="banner w-10/12 mx-auto py-5">
+        <div class="w-3/4 md:w-2/3 mx-auto text-center">
+          <img class="w-full" src="./assets/banner.png" alt="Banner Photo" />
+        </div>
+        <div class="w-full md:w-9/12 md:mx-auto text-center">
+          <h1
+            class="text-3xl md:text-extrabold md:text-6xl font-extrabold py-10 font-manrope text-center"
+          >
+            Awesome Home Design Is Wating For You. Not So Late. Lets Design.
+          </h1>
+          <p class="font-manrope text-[#494949] text-center">
+            This is our agency of home and house design. If you want to make a
+            beautiful designed home in your city, You are welcome. Our agency is
+            providing a best quality home design. Please contact me
+          </p>
+          <button
+            class="bg-[#ABEF5F] py-3 px-5 w-full md:w-52 my-10 rounded-full font-manrope"
+          >
+            <span class="mr-3 font-bold">View Detail</span>
+            <i
+              class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-[#5c9916] text-white p-2 mr-1"
+            ></i>
+          </button>
+        </div>
+      </div>
+      <!-- Banner Secion End -->
+    </header>
+    <!-- Main Section -->
+    <main>
+      <!-- About Section Start -->
+      <div class="about-section py-10 md:mt-10 md:ml-10 md:bg-[url('./assets/Vector.png')] md:bg-no-repeat text-center"
+      >
+        <button class="bg-white py-2 px-5 rounded-full md:hidden">
+          <i class="fa-solid fa-arrow-right mr-2"></i><span>About Us</span>
+        </button>
+        <div class="about-container flex flex-col md:flex-row justify-between items-center w-10/12 mx-auto text-left gap-10 ">
+
+          <div class="about-description font-manrope md:w-6/12">
+            <button class="bg-white py-2 px-5 rounded-full hidden md:block">
+              <i class="fa-solid fa-arrow-right mr-2"></i><span>About Us</span>
+            </button>
+            <h2 class="font-bold text-4xl py-5 text-center md:text-left">We design thoughtful, liveable spaces</h2>
+            <p class="text-base pb-5 text-center md:text-left">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <div class="flex flex-col gap-5">
+              <div class="bg-white rounded-xl p-5 flex gap-5 items-center">
+                <div><img src="./assets/commercial.png" alt=""></div>
+                <div class="topic-head">
+                  <h3 class="text-xl font-bold">Commercial</h3>
+                  <p class="text-base text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl p-5 flex gap-5 items-center">
+                <div class=""><img  src="./assets/residential.png" alt=""></div>
+                <div class="topic-head">
+                  <h3 class="text-xl font-bold">Residential</h3>
+                  <p class="text-base text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+              </div>
             </div>
-            <div class="w-full md:w-9/12 md:mx-auto text-center">
-                <h1 class="text-3xl md:text-extrabold md:text-6xl font-extrabold py-10 font-manrope text-center">Awesome Home Design Is Wating For You. Not So Late. Lets Design.</h1>
-                <p class="font-manrope text-[#494949] text-center">This is our agency of home and house design. If you want to make a beautiful designed home in your city, You are welcome. Our agency is providing a best quality home design. Please contact me </p>
-                <button class="bg-[#ABEF5F] py-3 px-5 w-full md:w-52 my-10 rounded-full font-manrope"><span class="mr-3 font-bold">View Detail</span> <i class="fa-solid fa-arrow-right rounded-full -rotate-45 bg-[#5c9916] text-white p-2 mr-1"></i></button>
+            <div></div>
+          </div>
+          <div>
+            <div>
+              <img src="./assets/Rectangle.png" alt="">
             </div>
           </div>
-         <!-- Banner Secion End -->
-     </header>
-    <!-- Main Section -->
-     <main>
-
-     </main>
+        </div>
+      </div>
+      <!-- About Section End -->
+    </main>
     <!-- Footer Section -->
-     <footer>
+    <footer></footer>
 
-     </footer>
-
-     <!-- FontAwesome Icon CDN -->
-     <script src="https://kit.fontawesome.com/13f4ca9130.js" crossorigin="anonymous"></script>
+    <!-- FontAwesome Icon CDN -->
+    <script
+      src="https://kit.fontawesome.com/13f4ca9130.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
